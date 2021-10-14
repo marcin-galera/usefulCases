@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { set } from "./actions";
+import { set } from "./redux/actions/counterActions";
 
 export const SetCounter = () => {
   const countFromStore = useSelector((state) => state.count);
